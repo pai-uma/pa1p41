@@ -26,7 +26,7 @@ public class Main {
 				System.err.println(e.getMessage());
 			}
 			try {
-				System.out.printf("Media %4.2f\n", algebra.getMedia());
+				System.out.printf(Locale.ENGLISH, "Media %4.2f\n", algebra.getMedia());
 			} catch (EstudianteException e) {
 				System.err.println(e.getMessage());
 			}
